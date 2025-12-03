@@ -25,7 +25,7 @@ div img{
 }
 div h3{
     color:white;
-    font-weight:500;
+    font-weight:550;
     text-align: center;
 }
 .location{
@@ -54,7 +54,7 @@ button{
     border-radius: 5px;
     margin: 0 auto;
     margin-bottom: 15px;
-    font-size:0.7em;
+    font-size:0.8em;
     transition: all 0.2s ease;
 }
 button:hover{
@@ -77,9 +77,10 @@ button:active{
         max-height: 90px;
     }
         button{
-        width:60vw;
+        width:90%;
         min-width: 200px;
     }
 }
+
 
 
