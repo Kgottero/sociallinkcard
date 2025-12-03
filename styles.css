@@ -76,4 +76,9 @@ button:active{
         max-width: 90px;
         max-height: 90px;
     }
+        button{
+        width:60vw;
+        min-width: 200px;
+    }
 }
+
