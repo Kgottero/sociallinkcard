@@ -71,6 +71,7 @@ button:has(:active){
 @media (max-width:480px){
     div{
         width:90%;
+        height:90%;
     }
     div img {
         height:30vw;
@@ -80,6 +81,7 @@ button:has(:active){
     }
     button{
         width:90%;
+        height:8.5vw;
         min-width: 200px;
         margin-top: 4%;
     }
@@ -87,9 +89,57 @@ button:has(:active){
 a{
     text-decoration: none;
 }
-
-
-
-
-
-
+@media (max-width:350px){
+    div{
+        width:90%;
+        height:85%;
+    }
+    div img {
+        height:30vw;
+        width:30vw;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    button{
+        width:90%;
+        height:10vw;
+        min-width: 200px;
+        margin-top: 4%;
+    }
+}
+@media (max-width:300px){
+    div{
+        width:90%;
+        height:80%;
+    }
+    div img {
+        height:30vw;
+        width:30vw;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    button{
+        width:90%;
+        height:10vw;
+        min-width: 200px;
+        margin-top: 6%;
+    }
+}
+@media (max-width:250px){
+    div{
+        width:90%;
+        height:75%;
+    }
+    div img {
+        height:30vw;
+        width:30vw;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    button{
+        width:100px;
+        height:11vw;
+        min-width: 200px;
+        margin-top: 4%;
+    }
+}
