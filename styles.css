@@ -62,15 +62,15 @@ button:hover{
     transform: scale(1.05);
 
 }
-button:has(:active)
-button:active{
+button:active,
+button:has(:active){
     background-color: #c4f82a;
     color:black;
+    transition: none;
 }
 @media (max-width:480px){
     div{
         width:90%;
-        height:70%;
     }
     div img {
         height:30vw;
@@ -78,12 +78,14 @@ button:active{
         max-width: 90px;
         max-height: 90px;
     }
-        button{
+    button{
         width:90%;
         min-width: 200px;
-            margin-top:4%;
-            
+        margin-top: 4%;
     }
+}
+a{
+    text-decoration: none;
 }
 
 
