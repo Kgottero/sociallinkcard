@@ -8,10 +8,10 @@ body{
     font-family: inter;
 }
 div{
-    height:85vh;
     width: 45%;
     background-color: #1f1f1f;
     border-radius:10px;
+    padding-bottom: 1.2vw;
 }
 div img{
     width:10vw;
@@ -71,7 +71,7 @@ button:has(:active){
 @media (max-width:480px){
     div{
         width:90%;
-        height:90%;
+        padding-bottom: 1vw;
     }
     div img {
         height:30vw;
@@ -83,16 +83,28 @@ button:has(:active){
         width:90%;
         height:8.5vw;
         min-width: 200px;
-        margin-top: 4%;
+        margin-top: 3.7%;
     }
 }
 a{
     text-decoration: none;
 }
+@media (max-width:410px){
+    button{
+        margin-top:5%;
+        height:9vw;
+    }
+}
+@media (max-width:370px){
+    button{
+        margin-top:6%;
+        height:10vw;
+    }
+}
 @media (max-width:350px){
     div{
         width:90%;
-        height:85%;
+        padding-bottom: 3vw;
     }
     div img {
         height:30vw;
@@ -110,7 +122,7 @@ a{
 @media (max-width:300px){
     div{
         width:90%;
-        height:80%;
+        padding-bottom: 2vw;
     }
     div img {
         height:30vw;
@@ -128,7 +140,7 @@ a{
 @media (max-width:250px){
     div{
         width:90%;
-        height:75%;
+        padding:1vw;
     }
     div img {
         height:30vw;
